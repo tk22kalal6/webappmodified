@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Anatomy Chapters</title>
+  <!-- Add necessary CSS/JS -->
+<script src="../../../access-control.js"></script>
+  <script src="../../../block.js"></script>
+  <script src="../../../error-handler/link-checker.js"></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5920367457745298"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+<script>
+      // Initialize access control for protected page
+      if (!accessControl.initProtectedPage()) {
+        throw new Error('Access denied - redirecting to index.html');
+      }
+    </script>
+  <h1>Anatomy Chapters</h1>
+  <div id="chaptersContainer"></div>
+  
+  <script>
+    // Fetch and list JSON files in this folder
+    fetch('chapters.json')
+      .then(response => response.json())
+      .then(chapters => {
+        // Render chapters
+      });
+  </script>
+</body>
+</html>
